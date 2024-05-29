@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Playlist</title>
+    <style>
+        body {
+            background-image: url('images/rockstar.jpg');
+            background-size: cover;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            text-align: center;
+            margin-top: 50px;
+        }
+        .button {
+            background-color: black;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 18px;
+            margin: 20px;
+            cursor: pointer;
+            transition: transform 0.2s;
+            font-weight: bold;
+        }
+        .button:hover {
+            transform: scale(1.1);
+        }
+        .iframe-container {
+            margin-top: 20px;
+        }
+
+        /* Media Queries */
+        @media only screen and (max-width: 600px) {
+            .button {
+                padding: 10px 20px;
+                font-size: 16px;
+            }
+            .iframe-container {
+                margin-top: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>reverie by jameews :)</h1>
+    </header>
+    <div class="container">
+        <button class="button" onclick="window.location.href='https://open.spotify.com/playlist/1a3971u87V7RKLYDkDzMpl?si=687be231ef524ad4'">epiphany</button>
+        <div class="iframe-container">
+            <iframe src="https://open.spotify.com/embed/playlist/1a3971u87V7RKLYDkDzMpl?utm_source=generator&theme=0" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        </div>
+        <button class="button" onclick="window.location.href='https://open.spotify.com/playlist/04UbJH90CsQjny97FqeUh9?si=24cdb410ed094e8a'">serendipity</button>
+        <div class="iframe-container">
+            <iframe src="https://open.spotify.com/embed/playlist/04UbJH90CsQjny97FqeUh9?utm_source=generator&theme=0" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        </div>
+        <button class="button" onclick="window.location.href='https://open.spotify.com/playlist/29ZrdOlBFIpBf1uYljo9jJ?si=5f2fa618f91d4544'">ethereal</button>
+        <div class="iframe-container">
+            <iframe src="https://open.spotify.com/embed/playlist/29ZrdOlBFIpBf1uYljo9jJ?utm_source=generator&theme=0" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        </div>
+        <button class="button" onclick="window.location.href='https://open.spotify.com/playlist/6arKlotSrJFLcP3OJ4G45c?si=e49f88fda44841fe'">resonance</button>
+        <div class="iframe-container">
+            <iframe src="https://open.spotify.com/embed/playlist/6arKlotSrJFLcP3OJ4G45c?utm_source=generator&theme=0" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        </div>
+    </div>
+</body>
+</html>
